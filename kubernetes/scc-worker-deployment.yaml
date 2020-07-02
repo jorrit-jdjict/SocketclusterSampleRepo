@@ -51,6 +51,7 @@ spec:
             - /usr/src/.
             - /usr/dest/
           name: app-src-container
+          image: 'jorritjdjict/socketcluster-sample:v1.0.9'
           volumeMounts:
             - mountPath: /usr/dest
               name: app-src-volume
